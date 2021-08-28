@@ -74,7 +74,7 @@ There are two datasets used in the analysis:
 ### Running Jupyter Notebooks
 All the analysis notebooks used to generate the figures and results used in the publication can be found in this [folder](/analysis):
 * [Datasets](/analysis/datasets)
-* [Demographic Analysis](/analysis/demographic-analysis.ipynb)
+* [Subjects Demographic Analysis](/analysis/demographic-analysis.ipynb)
 * [Global Conjoint Analysis](/analysis/global-conjoint-analysis.ipynb)
 * [Political Party Conjoint Analysis](/analysis/political-party-conjoint-analysis.ipynb)
 * [Global Sankey & Bubble Plots](/analysis/global-plots.ipynb)
