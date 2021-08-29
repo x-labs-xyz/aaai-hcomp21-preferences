@@ -22,7 +22,8 @@ Code to support analysis of [AAAI Conference on Human Computation and Crowdsourc
 * To install Jupyter Lab/Notebook, follow these [instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html). To run Jupyter Lab/Notebook, follow these [instructions](https://jupyter.readthedocs.io/en/latest/running.html). 
 * To set up a virtual environment and use it in Jupyter Lab/Notebook, follow these [instructions](https://janakiev.com/blog/jupyter-virtual-envs/).
 
-* To install requirements:
+
+### To install requirements:
 
 1. Clone this github repository 
 ```
@@ -36,7 +37,7 @@ pip3 install -r requirements.txt
 ```
 ### Understanding Datasets
 There are two datasets used in the analysis: 
-1. `results.csv`:
+1. `datasets/results.csv`:
     * `session_id`: unique id of the each respondent's session
     * `response_id`: unique id of each task response in a respondent's session
     * `expense_category`: category of the expense presented in task
@@ -58,7 +59,7 @@ There are two datasets used in the analysis:
     * `profession_option3`: 3rd profession option in the customized advisor profession drop down menu 
     * `profession_option4`: 4th profession option in the customized advisor profession drop down menu 
     * `task_submit_time`: task submission time
-3. `users.csv`:
+3. `datasets/users.csv`:
     * `session_id`: unique id of the each respondent's session
     * `user_state`: state the respondent completed the experiment from 
     * `user_gender`: self-reported gender of respondent (survey response)
@@ -72,7 +73,7 @@ There are two datasets used in the analysis:
     * `session_submit_time`: session submission time (survey response)
 
 ### Running Jupyter Notebooks
-All the analysis notebooks used to generate the figures and results used in the publication can be found in this [folder](/analysis):
+All the analysis notebooks used to generate the figures and results used in the publication can be found in this folder:
 * [Datasets](datasets)
 * [Subjects Demographic Analysis](demographic-analysis.ipynb)
 * [Global Conjoint Analysis](global-conjoint-analysis.ipynb)
