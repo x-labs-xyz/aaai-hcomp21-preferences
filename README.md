@@ -1,5 +1,5 @@
-# aaai-hcomp21-preferences
-This repository contains code to support the analysis of [AAAI Conference on Human Computation and Crowdsourcing](https://www.humancomputation.com/) Paper ["Modeling Simultaneous Preferences for Age, Gender, Race, and Professional Profiles in Government-Expense Spending: a Conjoint Analysis"]()
+# AAAI HCOMP 2021 - Conjoint Analysis of Human Preferences
+This repository contains code to support the analysis of the paper: "[Modeling Simultaneous Preferences for Age, Gender, Race, and Professional Profiles in Government-Expense Spending: a Conjoint Analysis]()" published in the 2021 Proceedings of [AAAI Conference on Human Computation and Crowdsourcing](https://www.humancomputation.com/)
 
 This repository and work may be cited as follows:
 ```
